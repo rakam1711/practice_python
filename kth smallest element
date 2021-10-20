@@ -1,0 +1,9 @@
+# practice_python
+def small(arr,k):
+    arr.sort()
+    return arr[k-1]
+
+
+arr = [8,95,7,9,6,50,20,31,1,85,96,42,21]
+k = 13
+print(f'k th smallest element is :{small(arr,k)}')
